@@ -1,0 +1,43 @@
+header{
+    width: 75%; 
+    background-color: skyblue;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: 250px;
+}
+
+
+body {
+    background-color: lavender;
+    font-family: monospace;
+}
+
+@media screen and (max-width:500px) {
+    #reviews {
+        display: none;
+    }
+}
+/* body{
+    background-color: lavender;
+    font-family: monospace;
+  }
+  header{
+    width:75%;
+    background-color: skyblue;
+  }
+  img{
+    width:75%;
+  }
+  #reviews{
+    display: block;
+  }
+  @media screen and (max-width:500px) {
+    #reviews {
+        display: none;
+    }
+  } */

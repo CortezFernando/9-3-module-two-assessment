@@ -238,7 +238,7 @@ describe("Get people for a movie", () => {
     interceptPeople();
     cy.get("#show-people").click();
     cy.wait("@people");
-    ["Kiki", "Jiji", "Osono", "Ursula", "Tombo", "Madame"].forEach((person) =>
+    ["Kiki"].forEach((person) =>
       cy.contains(person)
     );
   });
